@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Hero Coche Scroll</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<nav class="navbar">
+  <div class="nav-container">
+    <a href="#" class="logo">enekoosagarzazu</a>
+
+    <ul class="nav-menu">
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+
+    <!-- hamburguesa móvil -->
+    <div class="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="onda-fondo"></div>
+  <h1 class="hero-text">enekoosagarzazu</h1>
+  <img src="imgs/Untitled.png" class="coche" alt="Coche desde arriba">
+</section>
+
+<!-- Contenido de relleno para hacer scroll -->
+<section class="spacer"></section>
+<section class="servicios">
+  <div class="container">
+    <h2>Diseño Gráfico Profesional</h2>
+    <p>Transformo ideas en imágenes que impactan. Especializado en:</p>
+
+    <div class="servicios-grid">
+      <div class="servicio">
+        <h3>Rotulación para Coches</h3>
+        <p>Diseños personalizados para que tu vehículo hable por ti.</p>
+      </div>
+
+      <div class="servicio">
+        <h3>Flyers y Carteles</h3>
+        <p>Comunicación visual que captura atención y transmite tu mensaje.</p>
+      </div>
+
+      <div class="servicio">
+        <h3>Logotipos e Identidad</h3>
+        <p>Creación de marcas memorables desde cero o rediseño profesional.</p>
+      </div>
+    </div>
+  </div>
+</section>
+	
+<section class="proyectos">
+  <div class="container">
+    <h2 class="proyectos-titulo">Proyectos recientes</h2>
+
+    <!-- Proyecto 1 – imagen izq / texto der -->
+    <article class="proyecto">
+      <div class="proyecto-img">
+        <img src="imgs/pry1.png" alt="Proyecto 1">
+      </div>
+      <div class="proyecto-info">
+        <h3>Rotulación Mikel Artola</h3>
+        <p>Diseño para el piloto vasco con su BMW E36 Berlina para disputar el campeonato vasco navarro de rally y rallysprint.</p>
+        <a class="btn" href="#">Proyecto completo</a>
+      </div>
+    </article>
+
+    <!-- Proyecto 2 – imagen der / texto izq -->
+    <article class="proyecto reverse">
+      <div class="proyecto-img">
+        <img src="imgs/pry2.png" alt="Proyecto 2">
+      </div>
+      <div class="proyecto-info">
+        <h3>Concepto Nissan 200sx</h3>
+        <p>Propuesta realizada para el piloto vasco de subidas de montaña.</p>
+        <a class="btn" href="#">Proyecto completo</a>
+      </div>
+    </article>
+
+    <!-- Proyecto 3 – imagen izq / texto der -->
+    <article class="proyecto">
+      <div class="proyecto-img">
+        <img src="imgs/pry3.png" alt="Proyecto 3">
+      </div>
+      <div class="proyecto-info">
+        <h3>Rotulación Mikel Carmona</h3>
+        <p>Diseño para el piloto vasco con su BMW E36 Berlina para disputar el campeonato vasco navarro de rally y rallysprint.</p>
+        <a class="btn" href="#">Proyecto completo</a>
+      </div>
+    </article>
+
+    <!-- Proyecto 4 – imagen der / texto izq -->
+    <article class="proyecto reverse">
+      <div class="proyecto-img">
+        <img src="imgs/pry4.png" alt="Proyecto 4">
+      </div>
+      <div class="proyecto-info">
+        <h3>Distribución de patrocinadores</h3>
+        <p>Colocacción  de patrocinadores para el piloto navarro para su Toyota gr Yaris N4 CUP de la copa Gazoo Racing en el SCER ( Super Campeonato de España de Rallys) </p>
+        <a class="btn" href="#">Proyecto completo</a>
+      </div>
+    </article>
+  </div>
+</section>
+	
+<section class="giro-360">
+  <div class="cont">
+    <div class="texto">
+      <h2>Proceso</h2>
+      <p>¿Por qué lo usamos?
+Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo "Contenido aquí, contenido aquí". Estos textos hacen parecerlo un español que se puede leer. Muchos paquetes de autoedición y editores de páginas web usan el Lorem Ipsum como su texto por defecto, y al hacer una búsqueda de "Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).
+
+</p>
+    </div>
+    <div class="objeto" id="objeto360">
+      <div class="cara front"><img src="imgs/proceso1.png" alt="Frente"></div>
+      <div class="cara back"><img src="imgs/proceso2.png" alt="Detras"></div>
+    </div>
+  </div>
+</section>
+	
+<section class="antes-despues">
+  <h2>ANTES Y DESPUÉS</h2>
+
+  <div class="comparador">
+    <div class="imagen-antes">
+      <img src="imgs/antes.png" alt="Antes">
+    </div>
+    <div class="imagen-despues" id="despues">
+      <img src="imgs/despues.png" alt="Después">
+    </div>
+    <div class="barra" id="barra">
+      <div class="circulo"></div>
+    </div>
+  </div>
+</section>
+<section class="opiniones">
+  <div class="container">
+    <h2>RESEÑAS</h2>
+
+    <div class="testimonios-grid">
+      <article class="testimonio-card">
+        <img src="imgs/reseña1.jpg" alt="Cliente 1" class="foto-cliente">
+        <div class="texto">
+          <p>“El diseño de Eneko hizo que mi coche pasara de ser uno más a llamar la atención en cada curva.”</p>
+          <span class="nombre">Mikel Artola</span>
+          <span class="cargo">Piloto Rally Vasco-Navarro</span>
+		<div class="estrellas" data-puntos="5">
+  <span class="star on">★</span>
+  <span class="star on">★</span>
+  <span class="star on">★</span>
+  <span class="star on">★</span>
+  <span class="star on">★</span>
+</div>
+        </div>
+      </article>
+
+      <article class="testimonio-card">
+        <img src="imgs/reseña2.jpg"alt="Cliente 2" class="foto-cliente">
+        <div class="texto">
+          <p>“Profesional, rápido y con un gusto brutal. Repetiré para la próxima temporada.”</p>
+          <span class="nombre">Ander López</span>
+          <span class="cargo">Campeonato SCER</span>
+		<div class="estrellas" data-puntos="5">
+  <span class="star on">★</span>
+  <span class="star on">★</span>
+  <span class="star on">★</span>
+  <span class="star on">★</span>
+  <span class="star of">★</span>
+</div>
+      </article>
+
+    <article class="testimonio-card">
+        <img src="imgs/reseña3.jpg" alt="Cliente 2" class="foto-cliente">
+        <div class="texto">
+          <p>“Profesional, rápido y con un gusto brutal. Repetiré para la próxima temporada.”</p>
+          <span class="nombre">Ander López</span>
+          <span class="cargo">Campeonato SCER</span>
+		<div class="estrellas" data-puntos="5">
+  <span class="star on">★</span>
+  <span class="star on">★</span>
+  <span class="star of">★</span>
+  <span class="star of">★</span>
+  <span class="star of">★</span>
+</div>
+      </article>
+    </div>
+  </div>
+	
+</section>	
+	
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-col about">
+            <h3>enekoosagarzazu</h3>
+            <p>Diseñando desde 2024</p>
+            <p><i class="fas fa-map-marker-alt"></i> Irun, Guipuzcoa, España</p>
+            <p><i class="fas fa-envelope"></i> ensagar@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +34 674405802</p>
+        </div>
+
+        <div class="footer-col links">
+            <h4>Enlaces Rápidos</h4>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Acerca de Nosotros</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col legal">
+            <h4>Información Legal</h4>
+            <ul>
+                <li><a href="#">Política de Privacidad</a></li>
+                <li><a href="#">Términos y Condiciones</a></li>
+                <li><a href="#">Cookies</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col social">
+            <h4>Síguenos</h4>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2025 enekoosagarzazu. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
